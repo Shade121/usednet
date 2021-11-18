@@ -1,0 +1,86 @@
+.promo {
+    &_wrapper {
+        margin: 135px 0 0 110px;
+        display: flex;
+        
+    }
+    &_text {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    &_title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 50px;
+        color: #99EFD0;
+    }
+    &_descr {
+        margin-top: 19px;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        color: #8476AA;
+    }
+    &_watch {
+        display: flex;
+        margin-top: 60px;
+        &-btn {
+            width: 140px;
+            height: 80px;
+            background: #361C5D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .btn {
+                width: 46px;
+                height: 46px;
+                border: none;
+                border-radius: 50%;
+                background-color: #fff;
+                &:hover {
+                    background: #fff;
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+            }    
+        }
+        &-descr {
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #8476AA;
+            margin-left: 20px;
+        }
+    }
+    .triangle {
+        padding: 0;
+        position: relative;
+        &:after {
+            content: ''; 
+            position: absolute; 
+            left: 70%; 
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 8px solid transparent; 
+            border-left: 8px solid #00755f;
+        }
+        
+    }
+    .button {
+        margin-top: 40px;
+    }
+    &_man {
+        margin-left: 30px;
+        width: 55%;
+        img {
+            width: 100%;
+        }
+    }
+}
