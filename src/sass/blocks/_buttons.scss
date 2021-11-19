@@ -19,11 +19,32 @@
         text-decoration: none;
     }
     &:hover {
-        box-shadow: -5px 20px 40px rgba(#F2994A, 0.3);
+        box-shadow: -10px 10px 20px rgba(#F2994A, 0.3);
     }
     &:active {
         background: #F2994A;
-        box-shadow: -5px 20px 40px rgba(#F2994A, 0.3);
+        box-shadow: -5px 10px 20px rgba(#F2994A, 0.3);
+    }
+    &-submit {
+        font-family: Inter;
+        background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+        &:hover {
+            box-shadow: 10px 10px 20px rgba(#3B1D60, 0.4);
+        }
+        &:active {
+            background: #3B1D60;
+            box-shadow: 10px 10px 20px rgba(#3B1D60, 0.4);
+        }
+    }
+    &_back {
+        font-family: Inter;
+        &:hover {
+            box-shadow: 10px 10px 20px rgba(#F2994A, 0.4);
+        }
+        &:active {
+            background: #3B1D60;
+            box-shadow: 10px 10px 20px rgba(#F2994A, 0.4);
+        }
     }
     &_mini {
         width: 100px;

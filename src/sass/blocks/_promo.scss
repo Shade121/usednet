@@ -1,6 +1,6 @@
 .promo {
     &_wrapper {
-        margin: 135px 0 0 110px;
+        margin: 100px 0 0 110px;
         display: flex;
         
     }
@@ -29,12 +29,13 @@
         display: flex;
         margin-top: 60px;
         &-btn {
-            width: 140px;
-            height: 80px;
-            background: #361C5D;
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 140px;
+            height: 80px;
+            background: #361C5D;
+            border-radius: 2px;
             .btn {
                 width: 46px;
                 height: 46px;
@@ -50,6 +51,7 @@
             }    
         }
         &-descr {
+            width: 70%;
             font-family: Rubik;
             font-style: normal;
             font-weight: normal;
