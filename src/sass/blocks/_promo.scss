@@ -1,4 +1,6 @@
 .promo {
+    width: 100%;
+    height: auto;
     &_wrapper {
         margin: 100px 0 0 110px;
         display: flex;
@@ -28,6 +30,9 @@
     &_watch {
         display: flex;
         margin-top: 60px;
+        &-mobile {
+            display: none;
+        }
         &-btn {
             display: flex;
             justify-content: center;
@@ -69,9 +74,9 @@
             position: absolute; 
             left: 70%; 
             top: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-45%, -50%);
             border: 8px solid transparent; 
-            border-left: 8px solid #00755f;
+            border-left: 8px solid #361C5D;
         }
         
     }

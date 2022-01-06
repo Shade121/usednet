@@ -41,9 +41,25 @@
         padding: 15px;
         
     }
-    &-content {
-        border-radius: 0;
-        border: none;
+    
+    &-body {
+        min-height: 300px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    &-descr {
+        border: 1px solid #361C5D;
+        border-radius: 2px;
+        width: 70%;
+        padding: 50px 0;
+        text-align: center;
+        color: #8476AA;
     }
     &-footer {
         justify-content: flex-start;

@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <img src="icons/Logo.png" alt="logo">
+                    <img src="icon/logo.png" alt="logo">
                 </div>
                 <ul class="menu">
                     <li class="menu_item"><a href="" class="menu_link" data-bs-toggle="modal"
@@ -51,6 +51,17 @@
                 <img src="img/man.webp" alt="man">
             </div>
         </div>
+        <div class="promo_watch-mobile">
+            <div class="promo_watch-btn">
+                <button class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#video-modal" data-name="video">
+                    <div class="triangle"></div>
+                </button>
+            </div>
+            <div class="promo_watch-descr">
+                The harder you work for something, the greater you’ll feel when you achieve it.
+            </div>
+        </div>
     </section>
 
     <!-- Contact me modal -->
@@ -71,8 +82,7 @@
                     </div>
                     <div class="col-lg-12 md-12">
                         <button class="button button-submit">Send a message</button>
-                        <button type="button" class="button button_back modal_close" 
-                        >Back</button>
+                        <button type="button" class="button button_back modal_close">Back</button>
                     </div>
                 </div>
             </form>
@@ -96,7 +106,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" data-name="video">
-                    <video src="video/videoplayback.mp4" height="400" width="770" controls></video>
+                    <!-- <video src="video/videoplayback.mp4" height="400" width="770" controls></video> -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x8US5w7D5Mc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="modal-footer">
                     <div class="modal-footer_descr">
@@ -120,10 +131,12 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ratione itaque molestiae unde corporis recusandae voluptates amet, facilis asperiores velit, esse nam commodi beatae quae fugiat tempore veniam accusamus quaerat?
                 </div>
                 <div class="modal-body" data-name="contacts">
-                    USEDNET LLC
-                    3033 Emmons Ave
-                    Brooklyn, NY, 11235
-                    646-980-5553
+                   <div class="modal-descr">
+                        USEDNET LLC
+                        3033 Emmons Ave
+                        Brooklyn, NY, 11235 <br>
+                        646-980-5553
+                   </div>
                 </div>
             </div>
         </div>

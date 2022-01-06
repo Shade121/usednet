@@ -75,6 +75,16 @@ $(document).ready(function () {
         $(this).find('.modal-body').hide();
         $('.modal-body[data-name = ' + workName + ']').show();
     });
+
+    //video
+
+    var youtube_src = $("#video-modal iframe").attr("src");
+        $('#video-modal').on('show.bs.modal', function () {
+            $("#video-modal iframe").attr("src", youtube_src + "?autoplay=1");
+        });
+        $("#video-modal").on('hidden.bs.modal', function (e) {
+            $("#video-modal iframe").attr("src", null);
+        });
     
     // pageup
     $(window).scroll(function () {
