@@ -52,9 +52,9 @@ gulp.task('fonts', function(){
     .pipe(gulp.dest("dist/fonts"));
 });
 
-gulp.task('icons', function(){
-    return gulp.src("src/icons/**/*")
-    .pipe(gulp.dest("dist/icons"));
+gulp.task('icon', function(){
+    return gulp.src("src/icon/**/*")
+    .pipe(gulp.dest("dist/icon"));
 });
 
 gulp.task('mailer', function(){
@@ -78,4 +78,4 @@ gulp.task('video', function(){
 });
 
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'script', 'fonts', 'icons', 'mailer', 'downloads', 'imageminWebp', 'video' ));
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'script', 'fonts', 'icon', 'mailer', 'downloads', 'imageminWebp', 'video' ));
