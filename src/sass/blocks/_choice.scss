@@ -1,11 +1,11 @@
-.choise {
+.choice {
     position: relative;
     min-height: 500px;
     margin-top: 0px;
     padding-top: 90px;
     &:after {
         content: "";
-        background: url(../img/bgchoise.webp) center (center/cover) no-repeat;
+        background: url(../img/bgchoice.webp) center (center/cover) no-repeat;
         opacity: 0.2;
         top: 0;
         left: 0;
