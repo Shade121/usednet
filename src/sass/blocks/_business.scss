@@ -1,0 +1,81 @@
+.business {
+    position: relative;
+    margin-top: 150px;
+    min-height: 550px;
+    &:after {
+        content: "";
+        background: url(../icon/choice/line.png) left (center/contain) no-repeat;
+        top: 100px;
+        left: 0;
+        bottom: 0;
+        right: 950px;
+        position: absolute;
+        z-index: -1; 
+    }
+    &_wrapper {
+        margin: 0 60px 100px 100px;
+    }
+    &_traffic {
+        margin-top: 55px;
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        color: #99EFD0;
+        span {
+            color: #F2994A;
+        }
+        &-descr {
+            margin-top: 30px;
+            font-family: Gilroy;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+            color: #8476AA;
+        }
+    }
+    &_img {
+        width: 400px; 
+        margin-left: 60px;       
+        img {
+            width: 100%;
+        }
+    }
+    &_title {
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.33px;
+        color: #99EFD0;
+        span {
+            color: #F2994A;
+        }
+    }
+    &_text {
+        margin-top: 32px;
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+    &_block {
+       margin: 50px 0 0 55px;
+       width: 291px;
+        &-descr {
+            margin-top: 16px;
+            font-family: Gilroy;
+            font-size: 600;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #8476AA;
+        }
+    }
+}
