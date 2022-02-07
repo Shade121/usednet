@@ -1,0 +1,66 @@
+.help {
+    position: relative;
+    margin-top: 100px;
+    &:after {
+        content: "";
+        background: url(../img/line_help.webp) right (center/contain) no-repeat;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1; 
+    }
+    &_mobile {
+        display: none;
+    }
+    &_img {
+        width: 494px;
+        img {
+            width: 100%;
+        }
+    }
+    &_title {
+        margin-top: 110px;
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        color: #99EFD0;
+    }
+    &_descr {
+        margin-top: 32px;
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+    }
+    &_block {
+        margin-top: 46px;
+        &-img {
+            width: 36px;
+            height: 36px;
+        }
+        &-title {
+            margin-top: 16px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            color: #99EFD0;
+        }
+        &-descr {
+            margin-top: 8px;
+            font-family: Gilroy;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #8476AA;
+        }
+    }
+
+}

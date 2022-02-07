@@ -24,6 +24,25 @@
             margin-left: 0;
         }
     }
+    .invest {
+        &:after {
+            left: 430px;
+        }
+        &_title {
+            font-size: 41px;
+        }
+        &_img {
+            margin-left: 40px;
+        }
+    }
+    .help {
+        &_img {
+            width: 430px;
+        }
+        &_title {
+            margin-top: 70px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -89,7 +108,59 @@
             font-size: 30px;
             margin-top: 60px;
         }
+        &_block {
+            width: auto;
+        }
         
+    }
+    .next {
+        margin-top: 100px;
+        min-height: 450px;
+        &:after {
+            top: 0;
+        }
+        &_title {
+            width: auto;
+            font-size: 30px;
+            margin-top: 60px;
+        }
+    }
+    .invest {
+        margin-top: 10px;
+        &:after {
+            left: 250px;
+        }
+        &_wrapper  {
+            margin: 0;
+        } 
+        &_title {
+            font-size: 30px;
+            line-height: 40px;
+            &-descr {
+                line-height: 25px;
+            }
+        }
+        &_img {
+            margin-left: 15px;
+            width: 335px;
+            height: auto;
+        }
+    }
+    .help {
+        margin-top: 20px;
+        &_wrapper {
+            .row {
+                flex-direction: row-reverse;
+            }
+        }
+        &_img {
+            margin-top: 140px;
+            width: 350px;
+        }
+        &_title {
+            margin-top: 50px;
+            font-size: 21px;
+        }
     }
     .modal {
         &-content {
@@ -138,11 +209,10 @@
             text-align: center;
         }
         &_img {
-            margin: 40px auto;
+            margin: 40px 0;
+            float: right;
         }
-        &_block {
-            width: 100%;
-        }
+        
         &_title {
             margin-top: 30px;
             font-size: 26px;
@@ -150,8 +220,44 @@
             letter-spacing: -0.67px;
         }
     }
+    .next { 
+        &:after {
+            background: url(../img/ellipse.webp) center (center/cover) no-repeat;
+            top: 150px;
+        }      
+        &_title {
+            font-size: 26px;
+            line-height: 35px;
+        }
+    }
+    .invest {
+        margin: 0;
+        &:after {            
+            left: 50px;
+            top: 200px;
+        }
+        &_title {
+            text-align: center;
+        }
+        &_img {
+            margin: 40px 0;
+            width: 300px;
+            float: right;
+        }
+    }
+    .help {
+        &_img {
+            float: right;
+            width: 250px;
+        }
+        &_desktop {
+            display: none;
+        }
+        &_mobile {
+            display: block;
+        }
+    }
 }
-
 @media (max-width: 575px) {
     .navbar {
         margin-top: 40px;
@@ -204,6 +310,36 @@
         &_title {
             font-size: 20px;
             line-height: 30px;
+        }
+    }
+    .next {
+        
+        min-height: 400px; 
+        &_title {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .invest {
+        &_title {
+            font-size: 23px;
+            line-height: 33px;
+        }
+        &_img {
+            width: 250px;
+        }
+        &_title {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .help {
+        &_img {
+            margin-top: 35px;
+            width: 285px;
+        }
+        &_title {
+            font-size: 19px;
         }
     }
     .modal {

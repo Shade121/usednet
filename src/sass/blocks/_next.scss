@@ -1,0 +1,33 @@
+.next {
+    position: relative;
+    margin-top: 170px;
+    min-height: 540px;
+    &:after {
+        content: "";
+        background: url(../img/ellipse.webp) center (center/contain) no-repeat;
+        top: 50px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1; 
+    }
+    &_title {
+        margin: auto;
+        width: 770px;
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        color: #99EFD0;
+        span {
+            color: #F2994A;
+        }
+    }
+    &_button {
+        margin-top: 46px;
+        text-align: center;
+    }
+
+}
