@@ -35,6 +35,24 @@
             background: #3B1D60;
             box-shadow: 10px 10px 20px rgba(#3B1D60, 0.4);
         }
+        &_consultation {
+            width: 128px;
+            height: 56px;
+            background: #F2994A;
+            border-radius: 0px 5px 5px 0px;
+            color: #FFFF;
+            &:hover, &:active, &:focus {
+                color: #fff;
+                text-decoration: none;
+            }
+            &:hover {
+                box-shadow: -10px 10px 20px rgba(#F2994A, 0.3);
+            }
+            &:active {
+                background: #F2994A;
+                box-shadow: -5px 10px 20px rgba(#F2994A, 0.3);
+            }
+        }
     }
     &_back {
         font-family: Inter;

@@ -40,6 +40,29 @@
             }
         }
     }
+    &_consultation {
+        input {
+            width: 288px;
+            height: 56px;
+            margin: 0;
+            border: none;
+            padding: 0 27px;
+            background: #F6F6F6;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #131212;
+            opacity: 0.2;
+        }
+        button {
+            margin: 0;
+        } 
+    }
     .error {
         border: 1px solid red;
     }

@@ -29,18 +29,18 @@ $(document).ready(function () {
             },
             messages: {
                 name: {
-                    required: "Введите своё имя",
-                    minlength: jQuery.validator.format("Введите минимум {0} символа!")
+                    required: "Enter your name",
+                    minlength: jQuery.validator.format("Enter the minimum {0} symbol!")
                 },
                 phone: {
-                    required: "Введите свой номер телефона",
+                    required: "Enter your phone number",
                 },
                 email: {
-                    required: "Введите свой email",
-                    email: "Ваш email должен быть формата name@domain.com",
+                    required: "Enter your email",
+                    email: "Your email must be of the format name@domain.com",
                 },
                 text: {
-                    required: "Введите свое сообщение"
+                    required: "Enter your message"
                 },
             }
         });

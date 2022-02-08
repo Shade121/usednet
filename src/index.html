@@ -40,7 +40,7 @@
                     <div class="promo_watch-btn">
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video-modal"
                             data-name="video">
-                            <div class="triangle"></div>
+                            <dl class="triangle"></dl>
                         </button>
                     </div>
                     <div class="promo_watch-descr">
@@ -55,7 +55,7 @@
         <div class="promo_watch-mobile">
             <div class="promo_watch-btn">
                 <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video-modal" data-name="video">
-                    <div class="triangle"></div>
+                    <dl class="triangle"></dl>
                 </button>
             </div>
             <div class="promo_watch-descr">
@@ -73,9 +73,7 @@
                 <div class="choice_img"><img src="icon/subbly.svg" alt="subbly"></div>
                 <div class="choice_img"><img src="icon/demio.svg" alt="demio"></div>
             </div>
-            <div class="choice_title">
-                <h2>Your choice</h2>
-            </div>
+            <h2 class="choice_title">Your choice</h2>
             <div class="choice_subtitle">
                 There are many reasons to get down and start to get depressed about your situation.
             </div>
@@ -199,10 +197,10 @@
                     </div>
                 </div>
             </div>
-            <div class="business_title">
+            <h2 class="business_title">
                 3 Simple Ways To <span>Save</span> A Bunch <br>
                 Of <span>Money</span> When Buying A New Computer
-            </div>
+            </h2>
             <div class="business_text">
                 Fully customizable and neatly organized components <br>
                 will help you work faster without limiting creative freedom.
@@ -238,9 +236,7 @@
     </section>
     <section class="next">
         <div class="container">
-            <div class="next_title">
-                Create your <span>next project</span> with startup framework
-            </div>
+            <h2 class="next_title">Create your <span>next project</span> with startup framework</h2>
             <div class="next_button">
                 <button data-modal="contact_message" class="button">Get Started</button>
             </div>
@@ -251,9 +247,9 @@
             <div class="invest_wrapper">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="invest_title">
+                        <h2 class="invest_title">
                             Invest property for better <span>business</span>
-                        </div>
+                        </h2>
                         <div class="invest_title-descr">
                             We are committed to processing the information in order to contact you and talk about your
                             project.
@@ -274,9 +270,9 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="help_mobile">
-                            <div class="help_title">
+                            <h2 class="help_title">
                                 Help Finding Information Online
-                            </div>
+                            </h2>
                             <div class="help_descr">
                                 Fully customizable and neatly organized components
                                 will help you work faster without limiting creative freedom.
@@ -291,9 +287,9 @@
                     
                     <div class="col-sm-6 col-md-6">
                         <div class="help_desktop">
-                            <div class="help_title">
+                            <h2 class="help_title">
                                 Help Finding Information Online
-                            </div>
+                            </h2>
                             <div class="help_descr">
                                 Fully customizable and neatly organized components
                                 will help you work faster without limiting creative freedom.
@@ -333,6 +329,44 @@
             </div>
         </div>
     </section>
+    <section class="consultation">
+        <div class="consultation_wrapper">
+            <h2 class="consultation_title">
+                There are many reasons to get down
+            </h2>
+            <div class="consultation_descr">
+                There are many reasons to get down and start to get depressed about your situation. 
+            </div>
+            <form id="contact-form" class="feed-form feed-form_consultation" action="#">
+                <div class="row">
+                    <div class="col-sm-7 col-md-7 col-lg-7 form">
+                        <div class="form_input">
+                            <input name="email" required placeholder="Your E-mail" type="email">
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-lg-5 form-button">
+                        <button class="button button-submit button-submit_consultation">Send</button>
+                    </div>
+                </div>
+            </form>
+            <div class="consultation_text">
+                No spam. Only releases, updates and discounts
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_social">
+                <a href="#" class="footer_social_item"><span class="icon-facebook"></span></i></a>
+                <a href="#" class="footer_social_item"><span class="icon-twitter"></span></a>
+                <a href="#" class="footer_social_item"><span class="icon-linkedin"></span></a>
+                <a href="#" class="footer_social_item"><span class="icon-instagram"></span></a>
+            </div>
+            <div class="footer_copyright">
+                <address>&copy Copyrights <a href="https://lobosok.usednet.work/">Lobosok.V.</a>, 2021</address>
+            </div>
+        </div>
+    </footer>
 
     <!-- Contact me modal -->
     <div class="overlay">
@@ -376,9 +410,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" data-name="video">
-                    <!-- <video src="video/videoplayback.mp4" height="400" width="770" controls></video> -->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/x8US5w7D5Mc"
-                        title="YouTube video player" frameborder="0"
+                        title="YouTube video player" 
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -423,34 +456,11 @@
         </div>
     </div>
 
-    <!--     
-    <div class="overlay">
-        <div class="modal" id="consultation">
-            <div class="modal_close">&times;</div>
-            <div class="modal_subtitle">Просто заполните форму заявки</div>
-            <div class="modal_descr">и мы свяжемся с Вами в ближайшее время</div>
-            <form class="feed-form" action="#">
-                <input name="name" placeholder="Ваше имя" type="text">
-                <input name="phone" placeholder="Ваш телефон" type="tel">
-                <input name="email" placeholder="Ваш E-mail" type="email">
-
-                <button class="button button-submit">Отправить заявку</button>
-            </form>
-        </div>
-
-
-        <div class="modal modal_mini" id="thanks">
-            <div class="modal_close">&times;</div>
-            <div class="modal_subtitle">Спасибо за вашу заявку!</div>
-            <div class="modal_descr">Наш менеджер перезвонит Вам!</div>
-        </div>
-    </div>
-
     <div class="up">
         <a href="#" class="pageup">
-            <img src="icons/up-arrow.svg" alt="UP">
+            <img src="icon/up-arrow.svg" alt="UP">
         </a>
-    </div> -->
+    </div> 
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>

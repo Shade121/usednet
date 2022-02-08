@@ -1,0 +1,68 @@
+.consultation {
+    position: relative;
+    margin-top: 100px;
+    min-height: 400px;
+    padding-top: 50px;
+    &:after {
+        content: "";
+        background: url(../img/bgconsultation.webp) center (center/cover) no-repeat;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1; 
+    }
+    &_wrapper {
+        margin: auto;
+        padding-top: 50px;
+        width: 940px;
+        height: 324px;
+        background: rgba(60, 62, 125, 0.19);
+        backdrop-filter: blur(134px);
+        border-radius: 5px;
+    }
+    &_title {
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        color: #F2994A;
+    }
+    &_descr {
+        width: 396px;
+        margin: 20px auto;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #95A1BB;
+    }
+    .form {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        &-button {
+            padding-left: 0;
+        }
+    }
+    &_text {
+        margin-top: 16px;
+        font-family: Gilroy;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #8476AA;
+        text-align: center;
+    }
+    input {
+        display: block;
+    }
+    label.error {
+        display: block;
+    }
+}
