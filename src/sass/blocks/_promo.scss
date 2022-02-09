@@ -47,6 +47,16 @@
                 border: none;
                 border-radius: 50%;
                 background-color: #fff;
+                padding: 0;
+                position: relative;
+                &:after {
+                    content: ''; 
+                    position: absolute; 
+                    left: 45%; 
+                    bottom: 30%;
+                    border: 8px solid transparent; 
+                    border-left: 8px solid #361C5D;
+                }
                 &:hover {
                     background: #fff;
                 }
@@ -66,18 +76,18 @@
             margin-left: 20px;
         }
     }
-    .triangle {
-        padding: 0;
-        position: relative;
-        &:after {
-            content: ''; 
-            position: absolute; 
-            left: 40%; 
-            border: 8px solid transparent; 
-            border-left: 8px solid #361C5D;
-        }
+    // .triangle {
+    //     padding: 0;
+    //     position: relative;
+    //     &:after {
+    //         content: ''; 
+    //         position: absolute; 
+    //         left: 40%; 
+    //         border: 8px solid transparent; 
+    //         border-left: 8px solid #361C5D;
+    //     }
         
-    }
+    // }
     .button {
         margin-top: 40px;
     }

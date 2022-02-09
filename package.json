@@ -35,6 +35,8 @@
   "description": "",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "imagemin-webp": "^6.0.0"
+    "imagemin-webp": "^6.0.0",
+    "lazyframe": "^2.2.7",
+    "lite-youtube-embed": "^0.2.0"
   }
 }

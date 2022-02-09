@@ -77,13 +77,12 @@ $(document).ready(function () {
     });
 
     //video
-
-    var youtube_src = $("#video-modal iframe").attr("src");
+    var youtube = $("#video-modal video").attr("src");
         $('#video-modal').on('show.bs.modal', function () {
-            $("#video-modal iframe").attr("src", youtube_src + "?autoplay=1");
+            $("#video-modal video").attr("src", youtube + "?autoplay=1");
         });
         $("#video-modal").on('hidden.bs.modal', function (e) {
-            $("#video-modal iframe").attr("src", null);
+            $("#video-modal video").attr("src", null);
         });
     
     // pageup
@@ -94,5 +93,6 @@ $(document).ready(function () {
             $('.up').fadeOut();
         }
     });
+    
 
 });

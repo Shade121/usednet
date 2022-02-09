@@ -284,6 +284,11 @@
             width: 260px;
         }
     }
+    .modal {
+        video {
+            max-height: 400px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .navbar {
