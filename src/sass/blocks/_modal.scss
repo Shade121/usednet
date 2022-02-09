@@ -25,6 +25,14 @@
         font-weight: 700;
         font-size: 30px;
         text-align: left;
+        &-mini {
+            font-family: Gilroy;
+            color: #0D0D0D;
+            font-weight: 700;
+            font-size: 30px;
+            text-align: left;
+            text-align: center;
+        }
     }
     &_descr {
         font-family: Inter;
@@ -33,6 +41,15 @@
         font-size: 16px;
         text-align: left;
         margin-bottom: 20px;
+        &-mini {
+            font-family: Inter;
+            color: #0D0D0D;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 20px;
+            text-align: center;
+        }
     }
     &-dialog {
         max-width: 800px;
@@ -41,13 +58,11 @@
         padding: 15px;
         
     }
-    
     &-body {
         min-height: 300px;
         display: flex; 
         justify-content: center;
         align-items: center;
-        
         font-family: Gilroy;
         font-size: 18px;
         font-weight: 600;
@@ -69,7 +84,6 @@
             font-size: 18px;
         }
     }
-    
     &_mini {
         position: absolute;
         top: 50%;
@@ -80,6 +94,10 @@
         height: auto;
         background-color: white;
         padding: 38px 40px 40px 40px;
+    }
+    &_close {
+        margin-top: 10px;
+        float: right;
     }
     .error {
         border: 1px solid red;
